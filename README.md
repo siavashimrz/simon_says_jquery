@@ -2,6 +2,10 @@
 
 A simple Simon Says game built with HTML, CSS, JavaScript, and jQuery as part of a practice project from App Brewery.
 
+## Play It Here!
+
+https://siavashimrz.github.io/simon_says_jquery/
+
 ## Features
 
 * Random sequence generation
