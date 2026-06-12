@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(17, 17, 75);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: rgb(255, 251, 238);
+    font-size: 5em;
+    margin: 0;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box {
+    /* background-color: white; */
+    width: 220px;
+    height: 220px;
+    border-radius: 50px;
+    border: 10px solid black;
+
+}
+
+.box-1 {
+    background-color: green;
+}
+
+.box-2 {
+    background-color: red;
+}
+
+.box-3 {
+    background-color: yellow;
+}
+
+.box-4 {
+    background-color: blue;
+}
+
+
+
+.pressed {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.5);
+}
+
+.lost {
+    animation: red-blink 0.3s;
+}
+
+@keyframes red-blink {
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: rgb(17, 17, 75);
+
+    }
+}
